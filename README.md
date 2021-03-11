@@ -42,12 +42,12 @@ To use Gradient Ascent in Google Deep Dream model, you will need to plug the pre
 
 To tweak the output for dreamified images, use the following parameters in the _foodifywithtest_ code (see lines 28-40).
 <ol>
-  <li>__target_size_ - Adjusts the resolutions of the dreamified images by upscaling the starting image (for example, 256=>1K, 516=>2K).</li>
-  <li>__tile_size_ - Sets up the size for the rolled tiling (default is 512).</li>
-  <li>__octaverangemin_ and __octaverangemax_ - Determines the amount of octaves and their scales. More ranges will cause more images of increasingly higher detail. More ranges also requires higher starting resolution.</li>
-  <li>__octavescale_ - It is the default scale of each octave, which is further scaled by the octave ranges. We found 2 to be nice, but DeepDream started with 1.3.</li>
-  <li>__steps_per_octave_ - Defines number of steps for octave.</li>
-  <li>__step_size_ - Defines the step size for each octave.</li>
-  <li>__save_per_step_ - If this number is higher than steps per octave, it will not work.</li>
-  <li>_layersnames_ - It defines what layers it will use to maximize the activations. These layers may vary from 0 to 10. Deeper (higher) levels define high level features (for example, eyes, faces). Lower layers define more basic features like shapes.</li>
+  <li>_target_size - Adjusts the resolutions of the dreamified images by upscaling the starting image (for example, 256=>1K, 516=>2K).</li>
+  <li>_tile_size - Sets up the size for the rolled tiling (default is 512).</li>
+  <li>_octaverangemin and _octaverangemax - Determines the amount of octaves and their scales. More ranges will cause more images of increasingly higher detail. More ranges also requires higher starting resolution.</li>
+  <li>_octavescale - It is the default scale of each octave, which is further scaled by the octave ranges. We found 2 to be nice, but DeepDream started with 1.3.</li>
+  <li>_steps_per_octave - Defines number of steps for octave.</li>
+  <li>_step_size - Defines the step size for each octave.</li>
+  <li>_save_per_step - If this number is higher than steps per octave, it will not work.</li>
+  <li>layersnames - It defines what layers it will use to maximize the activations. These layers may vary from 0 to 10. Deeper (higher) levels define high level features (for example, eyes, faces). Lower layers define more basic features like shapes.</li>
 </ol>
