@@ -14,6 +14,8 @@ Upload images you want to use in the forbatch folder. They can be of any size an
 
 **Step 2: Classification of the original image and the deamified images using food domain.**
 
+It saves classified images in the _food_classification_saved_ folder, where it classifies both the original image placed in the _forbatch_ folder and the dreamified output.
+
 <img src="https://user-images.githubusercontent.com/59630225/110836826-5c75ff00-8255-11eb-916e-c3e2b1e57b37.jpg">
 
 **How to Run the Code**
