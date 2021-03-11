@@ -23,13 +23,13 @@ It saves classified images in the _food_classification_saved_ folder, where it c
   <li>Download this repository</li>
   <li>Download the <a href="https://drive.google.com/drive/folders/1U4wu1PZ9iTMh4bXk-OCYFzjasGp56Fo-?usp=sharing">pre-trained food model</a> and include it the your folder of the repository</li>
   <li>Set up your environment</li>
-  <li>Import [Tensorflow](https://www.tensorflow.org/install) using pip install</li>
+  <li>Import <a href="https://www.tensorflow.org/install">Tensorflow</a> using pip install</li>
   <li>Import CUDA if you would like to use a GPU device</li>
   <li>Install cuDnn into your environment</li>
-  <li>To avoid conflicts between packages for Tensorflow, please review the [compatibility tables](https://www.tensorflow.org/install/source_windows)</li>
+  <li>To avoid conflicts between packages for Tensorflow, please review the <a href="https://www.tensorflow.org/install/source_windows">compatibility tables</a></li>
   <li>Python 3+</li>
   <li>Import numpy</li>
-  <li>Import [matplotlib](https://matplotlib.org/) library</li>
+  <li>Import <a href="https://matplotlib.org/">matplotlib</a> library</li>
   <li>Set up the correct directory addresses for the outputs to be generated to using the foodifywithtest code (see lines 43-46)</li>
   <li>Run the foodifywithtest.py script</li>
   <li>The output will be generated in the Abstract-To_Food folder</li>
