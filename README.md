@@ -21,7 +21,7 @@ It saves classified images in the _food_classification_saved_ folder, where it c
 **How to Run the Code**
 <ol>
   <li>Download this repository</li>
-  <li>Download the [pre-trained food model](https://drive.google.com/drive/folders/1U4wu1PZ9iTMh4bXk-OCYFzjasGp56Fo-?usp=sharing) and include it the your folder of the repository</li>
+  <li>Download the <a href="https://drive.google.com/drive/folders/1U4wu1PZ9iTMh4bXk-OCYFzjasGp56Fo-?usp=sharing">pre-trained food model</a> and include it the your folder of the repository</li>
   <li>Set up your environment</li>
   <li>Import [Tensorflow](https://www.tensorflow.org/install) using pip install</li>
   <li>Import CUDA if you would like to use a GPU device</li>
