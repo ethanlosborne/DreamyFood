@@ -2,6 +2,9 @@
 
 This project is completed by Bjarke Larsen, Ethan Osborne, and Anya Osborne as part of the final class project about artifacts that appreciate art. It is based on the output of the pre-trained Generative Adversarial Network (GAN) model developed within the Project 2 - [WoWIconGAN](https://github.com/ethanlosborne/WoWIconGAN). The images generated as a result of the [WoWIconGAN](https://github.com/ethanlosborne/WoWIconGAN) were used as input for the present project. The idea behind the project is to have the machine create new stylized World of Warcraft icon art and “understand” it by classifying the generated images within a specific domain. We chose to use [101-Food](https://www.kaggle.com/dansbecker/food-101/) types for this domain that functions as a desired classification vector in our Google Deep Dream model that utilizes trained Inception V3 model and Gradient Ascent. For the food classifier, we modified the [harimkang / food-image-classifier](https://github.com/harimkang/food-image-classifier) as a reference and included its test mode into our project.
 
+**Important Notes**
+There is dummy text in the classificationresults.txt file so it could be uploaded to Github. Open this file and erase it before running the model. Also, the trained model was too large to upload, you can [find it here](https://drive.google.com/drive/folders/1U4wu1PZ9iTMh4bXk-OCYFzjasGp56Fo-?usp=sharing).
+
 **Example of Output**
 
 The Output includes two steps: (1) Generating dreamified images using gradient ascent; (2) Classification of the original image (forbatch) and the resulted deamified images using pre-trained 101-food classification model. FYI [download images here](https://drive.google.com/drive/folders/1YyFV_693ZBdBRemFtJnMtauuONhiEXGy?usp=sharing) for the GitHub repository.
