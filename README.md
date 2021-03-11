@@ -10,11 +10,11 @@ The Output includes two steps: (1) Generating dreamified images using gradient a
 
 Upload images you want to use in the forbatch folder. They can be of any size and resolution. The program will automatically rescale them. It will first run them via Deep Dream model using the Gradient Ascent, which will try to maximize the activations of specific layers for this input based on the food-trained Inception V3 model.
 
-![image](https://user-images.githubusercontent.com/59630225/110833216-1028c000-8251-11eb-8fac-7b7b21738271.png =250x250)
+![image](https://user-images.githubusercontent.com/59630225/110833216-1028c000-8251-11eb-8fac-7b7b21738271.png){:height="50%" width="50%"}
 
 **Step 2: Classification of the original image and the deamified images using food domain.**
 
-![image](https://user-images.githubusercontent.com/59630225/110833354-2df62500-8251-11eb-8394-2763de736c05.png =250x250)
+![image](https://user-images.githubusercontent.com/59630225/110833354-2df62500-8251-11eb-8394-2763de736c05.png){:height="50%" width="50%"}
 
 **How to Run the Code**
 <ol>
