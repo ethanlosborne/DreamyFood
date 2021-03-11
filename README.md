@@ -1,5 +1,4 @@
 # DreamyFood
-
 This project is completed by Bjarke Larsen, Ethan Osborne, and Anya Osborne as part of the final class project about artifacts that appreciate art. It is based on the output of the pre-trained Generative Adversarial Network (GAN) model developed within the Project 2 - WoWIconGAN. The images generated as a result of the WoWIconGAN were used as input for the present project. The idea behind the project is to have the machine create new stylized World of Warcraft icon art and “understand” it by classifying the generated images within a specific domain. We chose to use 101-Food types for this domain that functions as a desired classification vector in our Google Deep Dream model that utilizes trained Inception V3 model and Gradient Ascent. For the food classifier, we modified the harimkang / food-image-classifier as a reference and included its test mode into our project.
 Example of Output
 The Output includes two steps: (1) Generating dreamified images using gradient ascent; (2) Classification of the original image (forbatch) and the resulted deamified images using pre-trained 101-food classification model. FYI download images here for the GitHub repository.
@@ -35,3 +34,4 @@ _steps_per_octave - Defines number of steps for octave.
 _step_size - Defines the step size for each octave.
 _save_per_step - If this number is higher than steps per octave, it will not work.
 layersnames - It defines what layers it will use to maximize the activations. These layers may vary from 0 to 10. Deeper (higher) levels define high level features (for example, eyes, faces). Lower layers define more basic features like shapes.
+
